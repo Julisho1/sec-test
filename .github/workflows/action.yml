@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: microsoft/ApplicationInspector-Action@v1
         with:
-          location-to-scan: gosub-browser-main
-          output-path: result.txt
+          location-to-scan: ./gosub-browser-main
+          output-path: ./result.txt
