@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: microsoft/ApplicationInspector-Action@v1
         with:
-          location-to-scan: Julisho1/sec-test
+          location-to-scan: Julisho1/sec-test/*
