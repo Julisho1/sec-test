@@ -11,6 +11,9 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: microsoft/ApplicationInspector-Action@v1
+      - uses: actions/upload-artifact@v2
         with:
-          location-to-scan: Julisho1/sec-test/*
+          name: AppInspectorResults
+          path: AppInspectorResults.json
