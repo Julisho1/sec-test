@@ -14,4 +14,4 @@ jobs:
       - uses: microsoft/ApplicationInspector-Action@v1
         with:
           location-to-scan: ./
-          output-path: .
+          output-path: result.txt
