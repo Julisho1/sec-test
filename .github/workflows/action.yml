@@ -12,4 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: microsoft/ApplicationInspector-Action@v1
-        location-to-scan: Julisho1/sec-test
+        with:
+          location-to-scan: Julisho1/sec-test
